@@ -3,7 +3,7 @@
 .contact-form-2 .info ul li svg,
 .team-detail .team-data .t-tel .data svg,
 .video-play-btn svg {
-    fill: #ffee02; 
+    fill: #087EEA; 
 }
 
 /*Color*/
@@ -13,7 +13,7 @@
 .what-we-build .wwb-ul li.active:before,
 .w-counter ul li h2,
 .first .nav-tabs li button.active {
-    color: #ffee02;
+    color: #087EEA;
 }
 
 /*Light bg color*/
@@ -112,7 +112,7 @@ button.scrollTopStick.active,
 .cart .cart-table .c-c .c-data .cr-svg:hover,
 .first .tab-data .map-pin,
 .first .tab-data .map-pin .location {
-    background-color: #ffee02;
+    background-color: #087EEA;
 }
 
 /*Border color*/
@@ -160,5 +160,5 @@ textarea:focus-visible,
 .featured-slider-one .owl-nav button.owl-next:before,
 .cart .cart-table .c-c .c-data .cr-svg:hover,
 .first .tab-data .map-pin .location {
-    border-color: #ffee02;
+    border-color: #087EEA;
 }

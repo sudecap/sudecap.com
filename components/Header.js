@@ -5,7 +5,7 @@ const Header = `
         <div class="header-logo">
             <a href="index.html">
                 <figure>
-                    <img src="assets/images/Builty-Logo.svg" alt="logoo">
+                    <img style="width: 120px;" src="assets/images/logo-sudecap-white.png" alt="logoo">
                 </figure>
             </a>
         </div>
