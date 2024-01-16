@@ -423,21 +423,13 @@ jQuery(document).ready(function ($) {
                     <div class="cart-popup">
     
                         <ul>
-    
                             <li class="d-flex align-items-center position-relative">
-    
                                 <div class="p-img light-bg">
-    
                                     <img src="assets/images/p-1.png" alt="Product Image">
-    
                                 </div>
-    
                                 <div class="p-data">
-    
                                     <h3 class="font-semi-bold">Pastoral Principles Cards</h3>
-    
                                     <p class="theme-clr font-semi-bold">1 x $25.00</p>
-    
                                 </div>
     
                                 <a href="JavaScript:void(0)" id="crosss"></a>
@@ -493,98 +485,32 @@ jQuery(document).ready(function ($) {
         <div class="mobile-nav" id="mobile-nav">
             <div class="res-log">
                 <a href="index.html">
-                    <img src="assets/images/Builty-Logo.svg" alt="Responsive Logo">
+                    <img src="assets/images/logo-sudecap.png" style="height:100px;" alt="Responsive Logo">
                 </a>
             </div>
             <ul>
-                <li class="menu-item-has-children">
-                    <a href="javascript:void(0)">Home</a>
-                    <ul class="sub-menu">
-                        <li><a href="index.html">Home One</a></li>
-                        <li><a href="index-2.html">Home Two</a></li>
-                        <li><a href="index-3.html">Home Three</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children">
-                    <a href="javascript:void(0)">About</a>
-                    <ul class="sub-menu">
-                        <li><a href="about.html">About Company</a></li>
-                        <li><a href="core-values.html">Core Values</a></li>
-                        <li><a href="leadership.html">Leadership</a></li>
-                        <li><a href="history.html">History</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="JavaScript:void(0)">Shop</a>
-                    <ul class="sub-menu">
-                        <li class="menu-item-has-children">
-                            <a href="javascript:void(0)">Our Products</a>
-                            <ul class="sub-menu">
-                                <li><a href="product-list.html">Product List</a></li>
-                                <li><a href="product-grid.html">Product Grid</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="product-detail.html">Product Details</a></li>
-                        <li><a href="cart.html">Shop Cart</a></li>
-                        <li><a href="checkout.html">Cart Checkout</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children"><a href="JavaScript:void(0)">Pages</a>
-                    <ul class="sub-menu">
-                        <li class="menu-item-has-children">
-                            <a href="javascript:void(0)">Services</a>
-                            <ul class="sub-menu">
-                                <li><a href="services.html">what we do</a></li>
-                                <li><a href="service-detail.html">Service Detail</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="javascript:void(0)">Projects</a>
-                            <ul class="sub-menu">
-                                <li><a href="our-projects-1.html">Our Projects One</a></li>
-                                <li><a href="our-projects-2.html">Our Projects Two</a></li>
-                                <li><a href="project-detail.html">Project Detail</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="javascript:void(0)">Team</a>
-                            <ul class="sub-menu">
-                                <li><a href="our-team.html">Our Team</a></li>
-                                <li><a href="team-detail.html">Team Detail</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="login.html">Login & Register</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children">
-                    <a href="javascript:void(0)">News</a>
-                    <ul class="sub-menu">
-                        <li><a href="our-blog-1.html">Our Blog One</a></li>
-                        <li><a href="our-blog-2.html">Our Blog Two</a></li>
-                        <li><a href="blog-detail.html">Blog Detail</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="shop.html">Tienda</a>
+            </li>
+            <li>
+                <a href="about.html">Sobre nosotros</a>
+            </li>
+            <li>
+                <a href="contact.html">Contacto</a>
+            </li>
+        </ul>
             <a href="JavaScript:void(0)" id="res-cross"></a>
         </div>
         <div class="mobile-nav desktop-menu">
-            <h2>We Build Building and Great Homes.</h2>
-            <p class="des">We successfully cope with tasks of varying complexity, provide long-term guarantees
-                and
-                regularly master new technologies.</p>
             <figure>
                 <img src="assets/images/desktop-menu-img.jpg" alt="Desktop Menu Image">
             </figure>
-            <h3>Get in touch</h3>
-            <p class="num">(+380) 50 318 47 07</p>
-            <p class="adrs">65 Allerton Street 901 N Pitt Str, Suite 170, VA 22314, USA</p>
-            <div class="social-medias">
-                <a href="javascript:void(0)">Facebook</a>
-                <a href="javascript:void(0)">Twitter</a>
-                <a href="javascript:void(0)">Linkedin</a>
-            </div>
+            <h3>Mantentente en contacto</h3>
+            <p class="num">Teléfono: <span class="phone"></span> </p>
+            <p class="adrs">Dirección: <span class="address"></span></p>
         </div>
     </div>
     </div>
@@ -679,6 +605,7 @@ jQuery(document).ready(function ($) {
     $(document).ready(function () {
         var tag_header = $('header')
         tag_header.html(Header)
+        tag_header.css("background", "#000");
         var tag_footer = $('footer')
         tag_footer.html(Footer)
         var tag_address = $('span.address')
