@@ -419,9 +419,7 @@ jQuery(document).ready(function ($) {
                                 d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
                         </svg>
                     </a>
-                    
                     <div class="cart-popup">
-    
                         <ul>
                             <li class="d-flex align-items-center position-relative">
                                 <div class="p-img light-bg">
@@ -431,50 +429,28 @@ jQuery(document).ready(function ($) {
                                     <h3 class="font-semi-bold">Pastoral Principles Cards</h3>
                                     <p class="theme-clr font-semi-bold">1 x $25.00</p>
                                 </div>
-    
                                 <a href="JavaScript:void(0)" id="crosss"></a>
-    
                             </li>
-    
                             <li class="d-flex align-items-center position-relative">
-    
                                 <div class="p-img light-bg">
-    
                                     <img src="assets/images/p-1.png" alt="Product Image">
-    
                                 </div>
-    
                                 <div class="p-data">
-    
                                     <h3 class="font-semi-bold">Pastoral Principles Cards</h3>
-    
                                     <p class="theme-clr font-semi-bold">1 x $25.00</p>
-    
                                 </div>
-    
                                 <a href="JavaScript:void(0)" id="cross"></a>
-    
                             </li>
-    
                         </ul>
-    
                         <div class="cart-total d-flex align-items-center justify-content-between">
-    
                             <span class="font-semi-bold">Total:</span>
-    
                             <span class="font-semi-bold">$60.00</span>
-    
                         </div>
-    
                         <div class="cart-btns d-flex align-items-center justify-content-between">
-    
                             <a class="font-bold" href="JavaScript:void">View Cart</a>
-    
                             <a class="font-bold theme-bg-clr text-white checkout"
                                 href="JavaScript:void">Checkout</a>
-    
                         </div>
-    
                     </div>
                     <a href="/" data-bs-toggle="modal" data-bs-target="#exampleModal1"
                         class="theme-btn simple">Escribenos
