@@ -374,6 +374,9 @@ jQuery(document).ready(function ($) {
         });
     }
 
+    const SOCIAL_MEDIA = {
+        whatsapp: 'https://api.whatsapp.com/send?phone=573103695000',
+    }
     const Header = `
     <div class="container">
     <div class="row">
@@ -452,8 +455,8 @@ jQuery(document).ready(function ($) {
                                 href="JavaScript:void">Checkout</a>
                         </div>
                     </div>
-                    <a href="/" data-bs-toggle="modal" data-bs-target="#exampleModal1"
-                        class="theme-btn simple">Escribenos
+                    <a href="/"  target="_blank"
+                        class="theme-btn simple attr_whatsapp">Escribenos
                     </a>
                 </div>
             </div>
@@ -590,6 +593,8 @@ jQuery(document).ready(function ($) {
         tag_phone.html(phone)
         var tag_email = $('span.email')
         tag_email.html(email)
+        var attr_whatsapp = $('.attr_whatsapp')
+        attr_whatsapp.attr('href', SOCIAL_MEDIA.whatsapp)
     });
 
     // Animation on scroll
