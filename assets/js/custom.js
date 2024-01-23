@@ -643,7 +643,7 @@ jQuery(document).ready(function ($) {
         </div>
     </div>
 </div>`
-    const phone = `13113033`, email = `ingenieria@sudecap.com`, address = `Carrera 57B BIS No. 71 - 23, Bogotá`
+    const phone = `13113033`,phone_2 = `310 3695000`, email = `ingenieria@sudecap.com`, address = `Carrera 57B BIS No. 71 - 23, Bogotá`
     const phone_peru = `+012931654`, email_peru = `info.peru@sudecap.com`, address_peru = `Dir: Av. Las Nazarenas 642, Oficina 301, Lima`
 
     $(document).ready(function () {
@@ -655,6 +655,7 @@ jQuery(document).ready(function ($) {
         $('span.phone').html(phone)
         $('span.email').html(email)
         $('.attr_whatsapp').attr('href', SOCIAL_MEDIA.whatsapp)
+        $('.phone_2').html(phone_2)
         $('.phone_peru').html(phone_peru)
         $('.email_peru').html(email_peru)
         $('.address_peru').html(address_peru)
