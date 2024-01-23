@@ -647,19 +647,12 @@ jQuery(document).ready(function ($) {
     const phone_peru = `+012931654`, email_peru = `info.peru@sudecap.com`, address_peru = `Dir: Av. Las Nazarenas 642, Oficina 301, Lima`
 
     $(document).ready(function () {
-        var tag_header = $('header')
-        tag_header.html(Header)
-        tag_header.css("background", "#000");
-        var tag_footer = $('footer')
-        tag_footer.html(Footer)
-        var tag_address = $('span.address')
-        tag_address.html(address)
-        var tag_phone = $('span.phone')
-        tag_phone.html(phone)
-        var tag_email = $('span.email')
-        tag_email.html(email)
-        var attr_whatsapp = $('.attr_whatsapp')
-        attr_whatsapp.attr('href', SOCIAL_MEDIA.whatsapp)
+        $('header').html(Header).css("background", "#000");
+        $('footer').html(Footer)
+        $('span.address').html(address)
+        $('span.phone').html(phone)
+        $('span.email').html(email)
+        $('.attr_whatsapp').attr('href', SOCIAL_MEDIA.whatsapp)
         $('.phone_peru').html(phone_peru)
         $('.email_peru').html(email_peru)
         $('.address_peru').html(address_peru)
