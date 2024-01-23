@@ -647,8 +647,10 @@ jQuery(document).ready(function ($) {
     const phone_peru = `+012931654`, email_peru = `info.peru@sudecap.com`, address_peru = `Dir: Av. Las Nazarenas 642, Oficina 301, Lima`
 
     $(document).ready(function () {
+        // components
         $('header').html(Header).css("background", "#000");
         $('footer').html(Footer)
+        // attributes
         $('span.address').html(address)
         $('span.phone').html(phone)
         $('span.email').html(email)
