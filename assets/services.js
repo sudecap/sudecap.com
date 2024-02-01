@@ -1,88 +1,82 @@
 const SERVICES = [
     {
         ID:1,
-        NAME: 'BIO - CLEAN',
+        NAME:'BIO CLEAN',
         DESCRIPTION: '',
-        IMAGE: './assets/products/1.png',
+        IMAGE: './assets/products/BIO_CLEAN.png',
     },
     {
         ID:2,
-        NAME: 'BIOPOLYMER - VIS',
+        NAME:'BIOPOLYMER VIS',
         DESCRIPTION: '',
-        IMAGE: './assets/products/2.png',
+        IMAGE: './assets/products/BIOPOLYMER_VIS.png',
     },
     {
         ID:3,
-        NAME: 'SUDTROL',
+        NAME:'BLACK WELL',
         DESCRIPTION: '',
-        IMAGE: './assets/products/3.png',
+        IMAGE: './assets/products/BLACK_WELL.png',
     },
     {
         ID:4,
-        NAME: 'H & A CONTROL',
+        NAME:'DRILL LUBE',
         DESCRIPTION: '',
-        IMAGE: './assets/products/4.png',
+        IMAGE: './assets/products/DRILL_LUBE.png',
     },
     {
         ID:5,
-        NAME: 'POLYMER PAC - R',
+        NAME:'H&A CONTROL',
         DESCRIPTION: '',
-        IMAGE: './assets/products/5.png',
+        IMAGE: './assets/products/H&A_CONTROL.png',
     },
     {
         ID:6,
-        NAME: 'MY LUBE 2012',
+        NAME:'MR GEL PLUG',
         DESCRIPTION: '',
-        IMAGE: './assets/products/6.png',
+        IMAGE: './assets/products/MR_GEL_PLUG.png',
     },
     {
         ID:7,
-        NAME: 'ROD FREE',
+        NAME:'MR GEL',
         DESCRIPTION: '',
-        IMAGE: './assets/products/7.png',
+        IMAGE: './assets/products/MR_GEL.png',
     },
     {
         ID:8,
-        NAME: 'ROD FREE SOLIDO ',
+        NAME:'MR LUBE - 2012',
         DESCRIPTION: '',
-        IMAGE: './assets/products/8.png',
+        IMAGE: './assets/products/MR_LUBE_2012.png',
     },
     {
         ID:9,
-        NAME: 'MR GEL PLUG 3/8',
+        NAME:'PLOLYMER PLUS RD',
         DESCRIPTION: '',
-        IMAGE: './assets/products/9.png',
+        IMAGE: './assets/products/PLOLYMER_PLUS_RD.png',
     },
     {
         ID:10,
-        NAME: 'POLYEXPAND',
+        NAME:'POLYEXPAND',
         DESCRIPTION: '',
-        IMAGE: './assets/products/10.png',
+        IMAGE: './assets/products/POLYEXPAND.png',
     },
     {
         ID:11,
-        NAME: 'BLACK WELL',
+        NAME:'POLYMER PAC-R',
         DESCRIPTION: '',
-        IMAGE: './assets/products/11.png',
+        IMAGE: './assets/products/POLYMER_PAC_R.png',
     },
     {
         ID:12,
-        NAME: 'DRILL LUBE',
+        NAME:'ROD FREE SOLIDO',
         DESCRIPTION: '',
-        IMAGE: './assets/products/12.png',
+        IMAGE: './assets/products/ROD_FREE_SOLIDO.png',
     },
     {
         ID:13,
-        NAME: 'POLYMER PLUS RD',
+        NAME:'SUDTROL',
         DESCRIPTION: '',
-        IMAGE: './assets/products/13.png',
-    },
-    {
-        ID:14,
-        NAME: 'MR GER',
-        DESCRIPTION: '',
-        IMAGE: './assets/products/14.png',
-    },
+        IMAGE: './assets/products/SUDTROL.png',
+    }
 ]
 
 $(document).ready(function(){
@@ -93,20 +87,20 @@ $(document).ready(function(){
 
     $.each(SERVICES, function(index, SERVICE) {
         content_products.append(`
-            <a class="col-4" href="https://api.whatsapp.com/send?phone=573103695000" target="_blank">
-                <div class="product">
-                    <div class="main-data">
-                    <figure>
-                        <img src="${SERVICE.IMAGE}" alt="Product Image 1">
-                    </figure>
-                    <div class="data" style="text-align: center; margin-top:5px;">
-                        <h3><a href="#" style="text-align: center;">${SERVICE.NAME}</a></h3>
-                        <div class="price-range">
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </a>
+        <a class="item_single col-12 col-sm-6 col-md-4" href="https://api.whatsapp.com/send?phone=573103695000&text=Hola%20estoy%20interesado%20en%20eL%20producto%20${SERVICE.NAME}" target="_blank">
+        <div class="a">
+          <div class="product_content">
+            <figure>
+              <img
+                src=${SERVICE.IMAGE}
+                alt="Product">
+            </figure>
+            <div>
+              <span>${SERVICE.NAME}</span>
+            </div>
+          </div>
+        </div>
+      </a>
         `);
     });
 
