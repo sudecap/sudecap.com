@@ -120,11 +120,64 @@
   <section class="gap shop-style-one addition">
     <div class="container">
       <div class="row content_products ">
-        
+        <!-- test exacmple -->
+        <div class="item_single col-12 col-sm-6 col-md-4"  target="_blank">
+          <div class="a">
+            <div class="product_content">
+              <figure>
+                <!-- src='https://sudecap.com/assets/products/BIOPOLYMER_VIS.png' -->
+                <img
+                  src=${SERVICE.IMAGE}
+                  alt="Product">
+              </figure>
+              <div>
+                <span class="name_product">${SERVICE.NAME}</span>
+              </div>
+              <a class="button_write_us" target="_blank" href="https://api.whatsapp.com/send?phone=573103695000&text=Hola%20estoy%20interesado%20en%20eL%20producto%20${SERVICE.NAME}">
+                  Cotizar
+              </a>
+              <a class="view_file" target="_blank" href="${SERVICE.FILE}">
+                  Hoja Técnica
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <style>
+    .name_product{
+      font-size: 1.4rem;
+      margin: 10px;
+    }
+    .view_file, .button_write_us{
+      margin-bottom: 5px;
+      text-align:center;
+      
+      padding:15px;
+      width: 100%;
+      font-weight: 400;
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+      font-size: 1.2rem;
+    }
+    .view_file{
+      background: #0061CE;
+    }
+    .button_write_us{
+      background: #f6f6f6;
+      color: #0061CE;
+      margin-bottom:15px;
+    }
+    .button_write_us:hover{
+      background: #f6f6f6;
+    }
+
+    .view_file:hover{
+      color:white;
+      opacity: .9;
+    }
     .product_content {
       display: flex;
       flex-direction: column;
