@@ -2,7 +2,7 @@ const SERVICES = [
     {
         ID:1,
         NAME:'BIO CLEAN',
-        DESCRIPTION: 'El Bactericida es efectivopara una gama amplia debacterias incluyendo aero-bias y anaerobias su fórmu-la es a base de Biocidas conun fuerte poder bactericida,alguicida y fungicida.',
+        DESCRIPTION: 'El Bactericida es efectivopara una gama amplia debacterias incluyendo aerobias y anaerobias su fórmula es a base de Biocidas conun fuerte poder bactericida,alguicida y fungicida.',
         SECURITY_SHEET:'./assets/docs/MSDS_BIOCLEAN__(SGA)__.pdf',
         TECNICAL_SHEET:'./assets/docs/HOJA_TECNICA_BACTERICIDA__-_BIO_CLEAN.pdf',
         IMAGE: './assets/products/BIO_CLEAN.png',
@@ -10,7 +10,7 @@ const SERVICES = [
     {
         ID:2,
         NAME:'BIOPOLYMER VIS',
-        DESCRIPTION: 'EI BIOPOLYMERC - VIS, es un Biopolímero tipo goma xantana, (Xanthan Gum) dispersable en agua fácil- mente. El producto BIOPOLYMER-VIS se usa como agente de suspen- sión, por su alta propiedad TIXOTROPICA.',
+        DESCRIPTION: 'EI BIOPOLYMERCVIS, es un Biopolímero tipo goma xantana, (Xanthan Gum) dispersable en agua fácilmente. El producto BIOPOLYMER-VIS se usa como agente de suspensión, por su alta propiedad TIXOTROPICA.',
         SECURITY_SHEET:'./assets/docs/MSDS_BIO_POLYMER-VIS_(SGA).pdf',
         TECNICAL_SHEET:'./assets/docs/HOJA_TECNICA_BIOPOLYMER_-_VIS.pdf',
         IMAGE: './assets/products/BIOPOLYMER_VIS.png',
@@ -18,7 +18,7 @@ const SERVICES = [
     {
         ID:3,
         NAME:'BLACK WELL',
-        DESCRIPTION: 'Poseé una composición ex- clusiva, diseñado para me- jorar la estabilidad del pozo y pérdida de filtrado en condiciones de presión y temperatura elevadas, por lo tanto es utilizado en una amplia gama de operacio- nes de perforación',
+        DESCRIPTION: 'Poseé una composición exclusiva, diseñado para mejorar la estabilidad del pozo y pérdida de filtrado en condiciones de presión y temperatura elevadas, por lo tanto es utilizado en una amplia gama de operaciones de perforación',
         SECURITY_SHEET:'./assets/docs/MSDS_BLACK-WELL__SOLIDO_SUDECAP_Español.pdf',
         TECNICAL_SHEET:'./assets/docs/HOJA_TECNICA_BLACK_WELL_SOLIDO_SUDECAP_2015.pdf',
         IMAGE: './assets/products/BLACK_WELL.png',
@@ -26,7 +26,7 @@ const SERVICES = [
     {
         ID:4,
         NAME:'DRILL LUBE',
-        DESCRIPTION: 'Es un producto tipo Lubricante diseñado para mejorar la velocidad de penetración en fluidos de perforación base agua, especialmente donde se utilizan barrenas compactas de diamante poli- cristalino (PDC) y agente hu- mectante al perforar forma- ciones problemáticas SUDECAP',
+        DESCRIPTION: 'Es un producto tipo Lubricante diseñado para mejorar la velocidad de penetración en fluidos de perforación base agua, especialmente donde se utilizan barrenas compactas de diamante policristalino (PDC) y agente humectante al perforar formaciones problemáticas SUDECAP',
         SECURITY_SHEET:'./assets/docs/MSDS__DRILL_LUBE_(SGA)_.pdf',
         TECNICAL_SHEET:'./assets/docs/HOJA_TECNICA_DRILL_LUBE.pdf',
         IMAGE: './assets/products/DRILL_LUBE.png',
@@ -42,7 +42,7 @@ const SERVICES = [
     {
         ID:6,
         NAME:'MR GEL PLUG',
-        DESCRIPTION: 'Es una bentonita granulada ideal para sellar fracturas, para la instalación y el pie- zómetro y otros sensores de medición. Es un producto ideal desde su funcionamiento hasta convertirse en una solución efectiva y económica',
+        DESCRIPTION: 'Es una bentonita granulada ideal para sellar fracturas, para la instalación y el piezómetro y otros sensores de medición. Es un producto ideal desde su funcionamiento hasta convertirse en una solución efectiva y económica',
         SECURITY_SHEET:'./assets/docs/MSDS_MR_GEL__PLUG__3.8_(SGA)_.pdf',
         TECNICAL_SHEET:'./assets/docs/HOJA_TECNICA_M-R_GEL_PLUG_3.8_SUDECAP2013.pdf',
         IMAGE: './assets/products/MR_GEL_PLUG.png',
@@ -50,15 +50,15 @@ const SERVICES = [
     {
         ID:7,
         NAME:'MR GEL',
-        DESCRIPTION: 'El viscosificador MR GEL*es una bentonita superior de sodio, tratada tipo Wyoming de primera calidad de 220 a 260 bbl por tonelada de arci- Ila seca, mezclada con exten- dedores especiales.Es fácil de mezclar para aplicaciones de perforación con agua dulce y perforación de cateo.',
+        DESCRIPTION: 'El viscosificador MR GEL*es una bentonita superior de sodio, tratada tipo Wyoming de primera calidad de 220 a 260 bbl por tonelada de arciIla seca, mezclada con extendedores especiales.Es fácil de mezclar para aplicaciones de perforación con agua dulce y perforación de cateo.',
         SECURITY_SHEET:'./assets/docs/MSDS_MR_GEL_(SGA)_.pdf',
         TECNICAL_SHEET:'./assets/docs/HOJA_TECNICA_MR_GEL.pdf',
         IMAGE: './assets/products/MR_GEL.png',
     },
     {
         ID:8,
-        NAME:'MR LUBE - 2012',
-        DESCRIPTION: 'Lubricante de aceite vegetal de fácil mezclado en fluidos base agua. Ayuda a la reducción del torque y disminuye el des- gaste de las herramientas, mejorador de ROP.',
+        NAME:'MR LUBE 2012',
+        DESCRIPTION: 'Lubricante de aceite vegetal de fácil mezclado en fluidos base agua. Ayuda a la reducción del torque y disminuye el desgaste de las herramientas, mejorador de ROP.',
         SECURITY_SHEET:'./assets/docs/MSDS_MR_LUBE_20-12(SGA)_.pdf',
         TECNICAL_SHEET:'./assets/docs/HOJA_TECNICA_MR_LUBE-2012.pdf',
         IMAGE: './assets/products/MR_LUBE_2012.png',
@@ -82,7 +82,7 @@ const SERVICES = [
     {
         ID:11,
         NAME:'POLYMER PAC-R',
-        DESCRIPTION: 'Controlador de filtrado de alta viscosidad, para zonas arenosas e inestable, ha- ciendo más resistente el revoque o pared en el pozo perforado. Mejor rendimiento y menor pérdida del filtrado .',
+        DESCRIPTION: 'Controlador de filtrado de alta viscosidad, para zonas arenosas e inestable, haciendo más resistente el revoque o pared en el pozo perforado. Mejor rendimiento y menor pérdida del filtrado .',
         SECURITY_SHEET:'./assets/docs/MSDS_POLYMER-PAC_R_(SGA).pdf',
         TECNICAL_SHEET:'./assets/docs/HOJA_TECNICA_POLYMER_PAC_-_R.pdf',
         IMAGE: './assets/products/POLYMER_PAC_R.png',
@@ -98,7 +98,7 @@ const SERVICES = [
     {
         ID:13,
         NAME:'SUDTROL',
-        DESCRIPTION: 'Es un biopolímero de almi- dón modificado para ser empleado principalmente como agente reductor filtrante en el proceso de perforación, estabilizador de suspensiones, retenedor de agua, viscosificador de líquidos y con capacidad formadora de films.',
+        DESCRIPTION: 'Es un biopolímero de almidón modificado para ser empleado principalmente como agente reductor filtrante en el proceso de perforación, estabilizador de suspensiones, retenedor de agua, viscosificador de líquidos y con capacidad formadora de films.',
         SECURITY_SHEET:'./assets/docs/MSDS_SUDTROL_(SGA)_.pdf',
         TECNICAL_SHEET:'./assets/docs/HOJA_TECNICA_SUDTROL.pdf',
         IMAGE: './assets/products/SUDTROL.png',
@@ -116,7 +116,6 @@ $(document).ready(function(){
           <div class="a">
             <div class="product_content">
               <figure>
-                <!-- src='https://sudecap.com/assets/products/BIOPOLYMER_VIS.png' -->
                 <img
                   src=${SERVICE.IMAGE}
                   alt="Product">
