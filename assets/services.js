@@ -26,7 +26,7 @@ const SERVICES = [
     {
         ID:4,
         NAME:'DRILL LUBE',
-        DESCRIPTION: 'Es un producto tipo Lubri- cante diseñado para mejorar la velocidad de penetración en fluidos de perforación base agua, especialmente donde se utilizan barrenas compactas de diamante poli- cristalino (PDC) y agente hu- mectante al perforar forma- ciones problemáticas SUDECAP',
+        DESCRIPTION: 'Es un producto tipo Lubricante diseñado para mejorar la velocidad de penetración en fluidos de perforación base agua, especialmente donde se utilizan barrenas compactas de diamante poli- cristalino (PDC) y agente hu- mectante al perforar forma- ciones problemáticas SUDECAP',
         SECURITY_SHEET:'./assets/docs/MSDS__DRILL_LUBE_(SGA)_.pdf',
         TECNICAL_SHEET:'./assets/docs/HOJA_TECNICA_DRILL_LUBE.pdf',
         IMAGE: './assets/products/DRILL_LUBE.png',
