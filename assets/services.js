@@ -115,7 +115,7 @@ $(document).ready(function(){
                   Cotizar
               </a>
               <a class="view_file" target="_blank" href="${SERVICE.FILE}">
-                  Hoja Técnica
+                  Hoja de seguridad
               </a>
             </div>
           </div>
