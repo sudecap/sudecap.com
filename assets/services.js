@@ -65,7 +65,7 @@ const SERVICES = [
     },
     {
         ID:9,
-        NAME:'PLOLYMER PLUS RD',
+        NAME:' POLYMER PLUS RD',
         DESCRIPTION: 'Es un producto fácilmente dispersable y diseñado para proporcionar encapsulación y estabilización de la lutita. Esto resulta benéfico al estar mezclando rápidamente grandes cantidades o altas concentraciones de polímero también brindando control del filtrado.',
         SECURITY_SHEET:'./assets/docs/MSDS_POLYMER-PLUS_RD_(SGA).pdf',
         TECNICAL_SHEET:'./assets/docs/HOJA_TECNICA_POLYMER_PLUS_-_RD.pdf',
