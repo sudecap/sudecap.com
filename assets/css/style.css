@@ -3623,8 +3623,8 @@ button.scrollTopStick:hover i {
 .history-style-one .history-data .details p,
 .history-style-one .history-data .details a {
     transform: translateY(10px);
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
+    visibility: visible;
 }
 .history-style-one .history-data .details:hover p,
 .history-style-one .history-data .details:hover a {
