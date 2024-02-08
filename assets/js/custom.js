@@ -644,7 +644,7 @@ jQuery(document).ready(function ($) {
     </div>
 </div>`
     const phone = `13113033`,phone_2 = `310 3695000`, email = `ingenieria@sudecap.com`, address = `Carrera 57B BIS No. 71 - 23, Bogotá`
-    const phone_peru = `+012931654`, email_peru = `info.peru@sudecap.com`, address_peru = `Dir: Av. Las Nazarenas 642, Oficina 301, Lima`
+    const phone_peru = `+51 1 4897087`, email_peru = `jerson.roldan@sudecap.com.pe`, address_peru = `Dir: Av. Las Nazarenas 642, Oficina 301, Lima`
 
     $(document).ready(function () {
         // components
